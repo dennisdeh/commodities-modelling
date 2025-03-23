@@ -12,6 +12,8 @@ The `Commodities` class serves as a data preparation and ingestion pipeline tail
 - Performs modelling of various time-series models using [darts](https://unit8.com/darts-open-source/), including backtesting and evaluation.
 
 # Instructions
+A [main file](main.py) with the most important workflows shown as examples is generated.
+
 Most parameters of interest are set in the `__init__` initialisation method. This method initializes the class with 
 default values for attributes like dates, thresholds, flags, and paths. It also prepares external the libraries such as
 [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/) API for economic data, 
